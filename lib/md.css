@@ -1,0 +1,57 @@
+@import "highlight.js/styles/tomorrow-night";
+
+.hljs-single-line {
+    color: white;
+    background:rgb(100, 100, 100)
+}
+
+blockquote {
+    margin: 0;
+    padding: 6px 24px;
+    border-left: 8px solid gray;
+    background: rgba(231, 231, 231, 0.5);
+    color: rgb(100, 100, 100);
+    margin: 10px 0;
+}
+
+blockquote[class="warning"] {
+    border-left: 8px solid orange;
+    background: rgba(255, 234, 187, 0.5);
+}
+
+blockquote[class="error"] {
+    border-left: 8px solid red;
+    background: rgba(255, 71, 71, 0.5);
+    color: rgb(245, 245, 245);
+}
+
+blockquote[class="success"] {
+    border-left: 8px solid rgb(24, 202, 0);
+    background: rgba(143, 255, 149, 0.5);
+    color:rgb(102, 102, 102)
+}
+
+
+th, td{
+    padding: 10px 0;
+    min-width: 200px;
+    text-align: center;
+}
+
+thead {
+    background: gray;
+    color: #fff;
+}
+
+table tbody tr:nth-child(2n) {
+    background: rgba(161, 161, 161, 0.12); 
+}
+
+table tbody tr:nth-child(2n - 1) {
+    background: rgba(75, 75, 75, 0.12);
+}
+
+
+code {
+    font-size: 16px;
+}
