@@ -1,5 +1,5 @@
 import MarkdownIt from "markdown-it"
-import { explainHtml2VueRender } from "./resolveMd2JS"
+import { explainHtml2VueRender } from "./resolveHtml2JS"
 import md from "./shared/configedMd"
 import './md.css'
 
