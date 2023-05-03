@@ -14,6 +14,11 @@
       "require": "./dist/vite-plugin-vue-markdown-resolver.umd.js"
     }
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [
     "vite",
     "plugin"
